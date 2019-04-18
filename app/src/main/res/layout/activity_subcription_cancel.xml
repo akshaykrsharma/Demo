@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.punchh.rahul.TypefacedTextView
+        android:id="@+id/lblCalDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:letterSpacing=".2"
+        android:text="@string/str_subscription"
+        android:textAlignment="center"
+        android:textColor="@color/color_dk_black"
+        android:textSize="15dp"
+        app:typeface="@string/font_regular" />
+
+
+    <com.punchh.rahul.TypefacedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:letterSpacing=".2"
+        android:text="Select a date"
+        android:textColor="@color/color_dark_grey_70"
+        android:textSize="15dp"
+        app:typeface="@string/font_regular" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_textbox_green_border"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="cancelSubscription">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/calendar" />
+
+        <com.punchh.rahul.TypefacedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_dark_grey_70"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+    <com.punchh.rahul.TypefacedTextView
+        android:id="@+id/btnCancelSubscription"
+        style="@style/style_button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dip"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/color_red"
+        android:clickable="true"
+        android:onClick="cancelSubscription"
+        android:text="@string/str_cancel_subscription"
+        app:typeface="@string/font_bold" />
+
+
+</LinearLayout>

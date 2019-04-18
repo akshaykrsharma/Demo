@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#149f5c</color>
+    <color name="colorPrimaryDark">#149f5c</color>
+    <color name="colorAccent">#149f5c</color>
+    <color name="windowsBackground">#ffffff</color>
+    <color name="colorBg">#E5ECEE</color>
+    <color name="button_press">#149f5c</color>
+    <color name="button">#19CA74</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_dark_grey">#0E2F3B</color>
+    <color name="color_title">#990E2F3B</color>
+    <color name="color_green_60">#99ffffff</color>
+    <color name="color_dark_grey_80">#CC0E2F3B</color>
+    <color name="color_dark_grey_70">#B30E2F3B</color>
+    <color name="bg_title_calendar">#19CA74</color>
+    <color name="text_title_calendar">#0E2F3B</color>
+    <color name="color_slider_bg">#ffffff</color>
+    <color name="color_silver">#DDE1E2</color>
+    <color name="color_sub_heading">#6E8289</color>
+    <color name="selectedTabColor">#19CA74</color>
+    <color name="viewColor">#cacaca</color>
+    <color name="tap_top_bar_bg">#ffffff</color>
+    <color name="top_tap_bar">#19CA74</color>
+    <color name="color_signup_description">#6a8086</color>
+    <color name="color_title_cal_text">#6a8086</color>
+    <color name="color_red">#E8453D</color>
+    <color name="white">#fff</color>
+    <color name="chat_bg">#ffffff</color>
+    <color name="chat_border">#cacaca</color>
+    <color name="chat_bg_own">#19CA74</color>
+    <color name="color_dk_black">#666666</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="color_green">#19ca74</color>
+    <color name="color_title_bg">#d0d0d0</color>
+
+    
+</resources>

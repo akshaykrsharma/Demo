@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_height">42dip</dimen>
+    <dimen name="tab_text_size">12dip</dimen>
+    <dimen name="tab_height">28dip</dimen>
+    <dimen name="bottom_tab_height">48dip</dimen>
+    <dimen name="paddin_left">14.6dp</dimen>
+    <dimen name="paddin_top">6.1dp</dimen>
+    <dimen name="paddin_rit">12.5dp</dimen>
+    <dimen name="paddin_6_5">6.5dp</dimen>
+    <dimen name="paddin_12_5">12.5dp</dimen>
+    <dimen name="paddin_38_5">38.5dp</dimen>
+    <dimen name="paddin_10_5">10.5dp</dimen>
+    <dimen name="paddin_13_6">13.6dp</dimen>
+    <dimen name="paddin_16">16dp</dimen>
+    <dimen name="paddin_18">18dp</dimen>
+
+
+</resources>
