@@ -16,5 +16,13 @@
     <string name="str_refer_friend_know">Refer a friend now</string>
     <string name="password_policy">Password needs to be 10 digit alpha numeric.</string>
     <string name="str_subscription">Are you sure you want to unsubscribe. Your kid will removed from the schedule and the spot will be released. When you subscribe again registration fee will be charged.</string>
+    <string name="title_activity_credit_info">CreditInfoActivity</string>
+    <string name="str_credit">Credits</string>
+    <string name="str_homework">HOME</string>
+    <string name="str_all">ALL</string>
+    <string name="str_homework1">Homework</string>
+    <string name="str_make_up_credit">Makeup credit</string>
+    <string name="str_referral_credit">Referral credits</string>
+
 
 </resources>

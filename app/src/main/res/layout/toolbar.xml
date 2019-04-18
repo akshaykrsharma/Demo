@@ -20,7 +20,7 @@
         android:background="@android:color/white"
         android:orientation="horizontal">
 
-        <TextView
+        <com.punchh.rahul.AutoResizeTextView
             android:id="@+id/title_toolbar"
             style="@style/style_textview"
             android:layout_width="match_parent"

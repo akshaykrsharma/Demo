@@ -16,6 +16,7 @@
     <dimen name="paddin_13_6">13.6dp</dimen>
     <dimen name="paddin_16">16dp</dimen>
     <dimen name="paddin_18">18dp</dimen>
+    <dimen name="top_bar_stoke">.5dip</dimen>
 
 
 </resources>

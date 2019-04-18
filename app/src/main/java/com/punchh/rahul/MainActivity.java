@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
+        FloatingActionButton fab2 = (FloatingActionButton) findViewById(R.id.fab2);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,6 +34,16 @@ public class MainActivity extends AppCompatActivity {
                 data.setStripeId("32");
                 Intent inte = new Intent(MainActivity.this, SubscriptionDetailActivity.class);
                 inte.putExtra("data", data);
+                startActivity(inte);
+
+            }
+        });
+
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent inte = new Intent(MainActivity.this, CreditInfoActivity.class);
                 startActivity(inte);
 
             }

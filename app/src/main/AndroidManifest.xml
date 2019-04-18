@@ -19,16 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".SubscriptionDetailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
-
         <activity
             android:name=".SubscriptionCancelActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".CreditInfoActivity"
+            android:label="@string/title_activity_credit_info"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
